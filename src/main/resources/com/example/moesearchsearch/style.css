@@ -1,0 +1,31 @@
+.root{
+    -fx-background-image: url("./4322908.jpg");
+    -fx-background-size:cover ;
+}
+.label{
+    -fx-text-fill: white;
+}
+.button{
+    -fx-background-color: black;
+    -fx-border-color: orange;
+    -fx-border-radius: 3px;
+    -fx-text-fill: white;
+}
+
+/* Customize the ListView */
+.list-view {
+    -fx-background-color: #f3b1f3;
+    -fx-border-radius: 5px;
+    -fx-border-color: black;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5px;
+}
+.list-view .list-cell:hover{
+    -fx-background-color: #cda4f8;
+
+}
+/* Customize the selected item in the ListView */
+.list-view .list-cell:selected {
+    -fx-background-color: #8243c0;
+    -fx-text-fill: white;
+}
